@@ -798,3 +798,61 @@ elif page == "Results & Insights":
             """, unsafe_allow_html=True)
 
 # ----------------------
+```python
+# ============================================================
+# FOOTER
+# ============================================================
+
+st.markdown("""
+<div style="
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    background: linear-gradient(
+        135deg,
+        rgba(30,41,59,0.8),
+        rgba(49,46,129,0.7)
+    );
+    border-radius: 18px;
+">
+
+    <h3 style="
+        color: white;
+        margin-bottom: 8px;
+    ">
+        🎓 Student Career Path Recommender
+    </h3>
+
+    <p style="
+        color: #CBD5E1;
+        font-size: 15px;
+        margin: 5px;
+    ">
+        Crafted with ❤️ by
+        <strong style="color:#A5B4FC;">
+            Ravi Kumar Singh
+        </strong>
+    </p>
+
+    <p style="
+        color: #94A3B8;
+        font-size: 13px;
+        margin: 5px;
+    ">
+        Microsoft Certified Trainer
+        • Data Science & AI Trainer
+        • International Trainer
+    </p>
+
+    <p style="
+        color: #64748B;
+        font-size: 12px;
+        margin-top: 12px;
+    ">
+        Powered by Python • Streamlit • Machine Learning
+    </p>
+
+</div>
+""", unsafe_allow_html=True)
+```
