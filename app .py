@@ -802,6 +802,6 @@ elif page == "Results & Insights":
 # ----------------------
 st.markdown(f"""
     <div class="dev-footer">
-        Crafted with ❤️ by <a href="{https://github.com/coderravi0101}" target="_blank" style="color: #818CF8; text-decoration: none; font-weight: 600;">{DEV_NAME}</a> | Powered by Streamlit & Python
+        Crafted with ❤️ by <a href="{Ravi}" target="_blank" style="color: #818CF8; text-decoration: none; font-weight: 600;">{DEV_NAME}</a> | Powered by Streamlit & Python
     </div>
 """, unsafe_allow_html=True)
