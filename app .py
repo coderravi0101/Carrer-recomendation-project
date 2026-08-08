@@ -798,10 +798,3 @@ elif page == "Results & Insights":
             """, unsafe_allow_html=True)
 
 # ----------------------
-# FOOTER
-# ----------------------
-st.markdown(f"""
-    <div class="dev-footer">
-        Crafted with ❤️ by <a href="{Ravi}" target="_blank" style="color: #818CF8; text-decoration: none; font-weight: 600;">{DEV_NAME}</a> | Powered by Streamlit & Python
-    </div>
-""", unsafe_allow_html=True)
